@@ -10,3 +10,8 @@ npm install -g ijavascript
 - open Anaconda prompt
   - npm install -g ijavascript
   - ijsinstall
+
+
+- Open a different directory in jupyter
+
+Opne Anacomda cmd: `jupyter notebook --notebook-dir="C:\Dev\Python\powerdata-Python"`
