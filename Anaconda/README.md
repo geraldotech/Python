@@ -14,4 +14,4 @@ npm install -g ijavascript
 
 - Open a different directory in jupyter
 
-Opne Anacomda cmd: `jupyter notebook --notebook-dir="C:\Dev\Python\powerdata-Python"`
+Open Anacomda cmd: `jupyter notebook --notebook-dir="C:\Dev\Python\powerdata-Python"`
