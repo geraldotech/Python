@@ -4,15 +4,17 @@
 
 Install the framework: `pip install scrapy`
 
+
 - scrapy startproject <projectname/>
 - cd <projectname>
-Gerar o projeto adicionando o imdb.py na pasta spiders
-- scrapy genspider imdb imdb.com
+- `scrapy genspider smartup smartup.com
+- certificar que o  `smartup.py` foi criado pasta spiders
 
+## Scrapy shell um ambiente de testes: 
 
-- Scrapy shell: Ambiente de testes: 
+> para sair: quit()
 
-1. Type: `scrapy shell`
+1. Enter shell: `scrapy shell`
 2. Type: `fetch('https://technotesbr.blogspot.com')` or `scrapy shell site.com`
 
 1. Type direct scrapy shell myurlhere.com
@@ -35,9 +37,13 @@ links[2] #get link no index2
 
 After script done:
 
-- scrapy crawl imdb
+- scrapy crawl <project>
+
+Save:
+
 - scrapy crawl imdb -O myfile.json - overwrite
 - scrapy crawl imdb -o myfile.json - Notoverwrite
+$ scrapy crawl smartup -O siteinfo.csv
 
 
 
