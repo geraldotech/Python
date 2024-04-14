@@ -16,6 +16,10 @@ Install the framework: `pip install scrapy`
 
 1. Enter shell: `scrapy shell`
 2. Type: `fetch('https://technotesbr.blogspot.com')` or `scrapy shell site.com`
+3. Get all response: `print(response.body.decode(response.encoding))`
+  - get only body Using XPath: `response.xpath('//body').extract_first()`
+  - Using CSS selectors `print(response.css('body').extract_first())`
+  - View response in a browser: `view(response)`
 
 1. Type direct scrapy shell myurlhere.com
 
