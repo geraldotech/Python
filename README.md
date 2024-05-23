@@ -1,20 +1,34 @@
 # Python
 
-### Install Windows
 
+<details>
+  <summary>
+    Install Windows
+  </summary>
 Python3 e o IDLE
-[https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe](https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe)
+  
+- [https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe](https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe)
 
 - check version: `python --version`
 
 - select option: **`Add Python to environment variables`**
 
+Windows after install setup enviroment > path > click edit
+![image](https://github.com/geraldotech/Python/assets/92253544/23880d06-e9b4-4d73-8ee0-166f50babcdc)
+
+ add a new:
+
+ ![image](https://github.com/geraldotech/Python/assets/92253544/4aa8cf35-9f88-4a81-9036-cce5a84feaeb)
+  
+</details>
+
+
 run `python` in cmd:
 
-Open cmd with : `C:\Users\geral\AppData\Local\Programs\Python\Python311`
+Open cmd with : `C:\Users\username\AppData\Local\Programs\Python\Python311`
 
 run files:
-`C:\Users\geral\AppData\Local\Programs\Python\Python311\python.exe myscript.py`
+`C:\Users\username\AppData\Local\Programs\Python\Python311\python.exe myscript.py`
 
 ### Modo iterativo:
 
