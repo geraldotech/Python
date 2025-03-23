@@ -27,7 +27,7 @@ Agora, seu aplicativo Python rodará como um serviço no Windows.
 
 
 # Empacotamento (Opcional) - portabilizar
-Se quiser distribuir seu aplicativo, você pode empacotá-lo usando ferramentas como PyInstaller ou cx_Freeze para criar um executável.
+- Se quiser distribuir seu aplicativo, você pode empacotá-lo usando ferramentas como PyInstaller ou cx_Freeze para criar um executável.
 
 Exemplo com PyInstaller:
 
@@ -36,12 +36,13 @@ pyinstaller --onefile servico.py
 Isso criará um arquivo .exe que pode ser executado diretamente no Windows.
 
 
-Para que o PyInstaller inclua arquivos externos, como o config.json, no executável gerado, você precisa especificar esses arquivos durante o processo de empacotamento. O PyInstaller não inclui automaticamente arquivos que não são .py, então você precisa usar o parâmetro --add-data para garantir que o config.json (e outros arquivos necessários) sejam embutidos no executável.
+- Para que o PyInstaller inclua arquivos externos, como o config.json, no executável gerado, você precisa especificar esses arquivos durante o processo de empacotamento. O PyInstaller não inclui automaticamente arquivos que não são .py, então você precisa usar o parâmetro --add-data para garantir que o config.json (e outros arquivos necessários) sejam embutidos no executável.
 
 pyinstaller --onefile --add-data "config.json;." start.py
 
 
 mover o executavel para uma pasta e suas dependencias e executar o exe
+
 
 
 - Criando batch que cria o serviço silenciosamente
