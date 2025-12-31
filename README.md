@@ -73,6 +73,7 @@ x = str("geraldox.com")
 print("website:", x)
 print("website: " + x)
 print("website: {}".format(x))
+print(f"visite {x}") # moderna
 
 #usando aspas between strings
 print('Handle \'Option 1\'') # Handle 'Option 1'
